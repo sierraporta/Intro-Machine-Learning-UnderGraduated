@@ -45,89 +45,20 @@ Se espera especial cuidado en el storytelling: el póster debe guiar al espectad
 
 # **PROYECTOS Propuestos (pueden haber más o pueden sugerir otros)**
 
-1. **Clasificación de billetes colombianos por denominación**
-- Descripción: Este proyecto busca construir un sistema de clasificación automática de billetes colombianos a partir de imágenes capturadas en condiciones reales, incluyendo variaciones de iluminación, desgaste y arrugas.
-- Objetivo: Desarrollar un modelo que identifique correctamente la denominación del billete y analizar el impacto del deterioro físico en el desempeño del modelo.
-- Features: Textura (GLCM), entropía, histogramas de color, transformadas de Fourier (FFT).
-- Modelo: Clasificación multiclase (por ejemplo: k-NN, SVM, Random Forest).
-- Aplicación relevante: Reconocimiento automático en contextos financieros y análisis del efecto del ruido físico en sistemas de visión.
-
-2. **Clasificación de monedas colombianas por denominación**
-- Descripción: Sistema de clasificación de monedas basado en imágenes, considerando variaciones de brillo, desgaste y condiciones de captura.
-- Objetivo: Clasificar monedas según su denominación utilizando imágenes recolectadas por los estudiantes.
-- Features: Histogramas de intensidad, textura, detección de bordes, características de forma y FFT.
-- Modelo: Clasificación multiclase.
-- Aplicación relevante: Automatización de conteo de monedas y sistemas de reconocimiento en dispositivos embebidos.
-
-3. **Identificación de superficies por sonido**
-- Descripción: Clasificación de materiales a partir del sonido producido al golpearlos.
-- Objetivo: Determinar el tipo de superficie (madera, metal, vidrio, concreto, etc.) usando características acústicas.
-- Features: MFCC, energía de la señal, espectro de frecuencia.
-- Modelo: Clasificación supervisada.
-- Aplicación relevante: Reconocimiento de materiales en robótica e inspección no invasiva.
-
-4. **Clasificación de frutas por madurez**
-- Descripción: Análisis visual de frutas a lo largo del tiempo para determinar su estado de maduración.
-- Objetivo: Clasificar el nivel de madurez (verde, intermedio, maduro).
-- Features: Color en espacio HSV, textura, brillo.
-- Modelo: Clasificación ordinal o multiclase.
-- Aplicación relevante: Control de calidad en alimentos y optimización de cadenas de suministro.
-
-5. **Identificación de género musical**
-- Descripción: Clasificación automática de géneros musicales a partir de señales de audio.
-- Objetivo: Determinar el género de una pista utilizando características espectrales.
-- Features: MFCC, energía, espectro de frecuencia.
-- Modelo: Clasificación multiclase.
-- Aplicación relevante: Sistemas de recomendación musical y organización automática de bibliotecas de audio.
-
-6. **Clasificación de tipos de rocas por imagen**
-- Descripción: Clasificación de rocas utilizando propiedades visuales observables en imágenes.
-- Objetivo: Identificar el tipo de roca a partir de imágenes recolectadas por los estudiantes.
-- Features: Textura, granulometría (FFT), color.
-- Modelo: Clasificación supervisada.
-- Aplicación relevante: Geología aplicada y clasificación automática de materiales naturales.
-
-7. **Clasificación de estados de ánimo por voz (controlado)**
-- Descripción: Análisis de señales de voz bajo condiciones controladas para identificar variaciones en el tono.
-- Objetivo: Clasificar estados de voz (neutral, feliz, serio, eufórico, etc.) desde una perspectiva acústica.
-- Features: Pitch, energía, MFCC.
-- Modelo: Clasificación supervisada.
-- Aplicación relevante: Interfaces de interacción humano-computador y análisis de señales de voz.
-
-8. **Clasificación de objetos por sonido al caer**
-- Descripción: Clasificación de objetos a partir del sonido que producen al impactar una superficie.
-- Objetivo: Identificar el tipo de objeto (llaves, monedas, libros, etc.) usando señales acústicas.
-- Features: Espectro de frecuencia, duración del sonido, energía.
-- Modelo: Clasificación supervisada.
-- Aplicación relevante: Reconocimiento acústico de objetos en entornos inteligentes.
-
-9. **Clasificación de tipos de nubes**
-- Descripción: Clasificación de nubes utilizando imágenes capturadas localmente o recolectadas por los estudiantes.
-- Objetivo: Identificar diferentes tipos de nubes a partir de sus patrones visuales.
-- Features: Textura, color, patrones espaciales.
-- Modelo: Clasificación multiclase.
-- Aplicación relevante: Apoyo a observación meteorológica y análisis climático básico.
-
-10. **Clasificación de calidad de conexión WiFi en la UTB**
-- Descripción: Evaluación y modelado de la calidad de conexión WiFi en distintos puntos del campus.
-- Objetivo: Predecir la calidad de conexión (buena, media, baja) a partir de variables contextuales.
-- Features: Ubicación, hora del día, día de la semana, obstáculos, mediciones de velocidad y latencia.
-- Modelo: Clasificación o regresión.
-- Aplicación relevante: Optimización de infraestructura de red y análisis de cobertura.
-
-11. **Clasificación de tipos de empaques**
-- Descripción: Clasificación de materiales de empaques a partir de imágenes tomadas en el entorno cotidiano.
-- Objetivo: Identificar si un empaque es plástico, papel o metal.
-- Features: Color, textura, características superficiales.
-- Modelo: Clasificación supervisada.
-- Aplicación relevante: Sistemas de reciclaje automatizado y separación de residuos.
-
-12. **Clasificación de tipos de aplauso**
-- Descripción: Análisis de señales acústicas para identificar distintos patrones de aplauso.
-- Objetivo: Clasificar tipos de aplauso (lento, rápido, intenso).
-- Features: Ritmo, energía, patrones temporales.
-- Modelo: Clasificación supervisada.
-- Aplicación relevante: Análisis de comportamiento colectivo y procesamiento de señales de audio.
+| N | Nombre | Observaciones |
+|---|---:|---|
+| 1. | **Clasificación de billetes colombianos por denominación** | **Descripción**: Este proyecto busca construir un sistema de clasificación automática de billetes colombianos a partir de imágenes capturadas en condiciones reales, incluyendo variaciones de iluminación, desgaste y arrugas. **Objetivo**: Desarrollar un modelo que identifique correctamente la denominación del billete y analizar el impacto del deterioro físico en el desempeño del modelo. **Features**: Textura (GLCM), entropía, histogramas de color, transformadas de Fourier (FFT). **Modelo**: Clasificación multiclase (por ejemplo: k-NN, SVM, Random Forest). **Aplicación relevante**: Reconocimiento automático en contextos financieros y análisis del efecto del ruido físico en sistemas de visión. |
+| 2. | **Clasificación de monedas colombianas por denominación** | **Descripción**:: Sistema de clasificación de monedas basado en imágenes, considerando variaciones de brillo, desgaste y condiciones de captura. **Objetivo**:: Clasificar monedas según su denominación utilizando imágenes recolectadas por los estudiantes. **Features**:: Histogramas de intensidad, textura, detección de bordes, características de forma y FFT. **Modelo**:: Clasificación multiclase. **Aplicación relevante**:: Automatización de conteo de monedas y sistemas de reconocimiento en dispositivos embebidos. |
+| 3. | **Identificación de superficies por sonido** | **Descripción**:: Clasificación de materiales a partir del sonido producido al golpearlos. **Objetivo**:: Determinar el tipo de superficie (madera, metal, vidrio, concreto, etc.) usando características acústicas. **Features**:: MFCC, energía de la señal, espectro de frecuencia. **Modelo**:: Clasificación supervisada. **Aplicación relevante**:: Reconocimiento de materiales en robótica e inspección no invasiva.|
+| 4. | **Clasificación de frutas por madurez** | **Descripción**:: Análisis visual de frutas a lo largo del tiempo para determinar su estado de maduración. **Objetivo**: Clasificar el nivel de madurez (verde, intermedio, maduro). **Features**:: Color en espacio HSV, textura, brillo. **Modelo**:: Clasificación ordinal o multiclase. **Aplicación relevante**:: Control de calidad en alimentos y optimización de cadenas de suministro. |
+| 5. | **Identificación de género musical** | **Descripción**:: Clasificación automática de géneros musicales a partir de señales de audio. **Objetivo**:: Determinar el género de una pista utilizando características espectrales. **Features**:: MFCC, energía, espectro de frecuencia. **Modelo**:: Clasificación multiclase. **Aplicación relevante**:: Sistemas de recomendación musical y organización automática de bibliotecas de audio. |
+| 6. | **Clasificación de tipos de rocas por imagen** | **Descripción**:: Clasificación de rocas utilizando propiedades visuales observables en imágenes. **Objetivo**:: Identificar el tipo de roca a partir de imágenes recolectadas por los estudiantes. **Features**:: Textura, granulometría (FFT), color. **Modelo**:: Clasificación supervisada. **Aplicación relevante**:: Geología aplicada y clasificación automática de materiales naturales. |
+| 7. | **Clasificación de estados de ánimo por voz (controlado)** | **Descripción**:: Análisis de señales de voz bajo condiciones controladas para identificar variaciones en el tono. **Objetivo**:: Clasificar estados de voz (neutral, feliz, serio, eufórico, etc.) desde una perspectiva acústica. **Features**:: Pitch, energía, MFCC. **Modelo**:: Clasificación supervisada. **Aplicación relevante**:: Interfaces de interacción humano-computador y análisis de señales de voz. |
+| 8. | **Clasificación de objetos por sonido al caer** | **Descripción**:: Clasificación de objetos a partir del sonido que producen al impactar una superficie. **Objetivo**:: Identificar el tipo de objeto (llaves, monedas, libros, etc.) usando señales acústicas. **Features**:: Espectro de frecuencia, duración del sonido, energía. **Modelo**:: Clasificación supervisada. **Aplicación relevante**:: Reconocimiento acústico de objetos en entornos inteligentes. |
+| 9. | **Clasificación de tipos de nubes** | **Descripción**:: Clasificación de nubes utilizando imágenes capturadas localmente o recolectadas por los estudiantes. **Objetivo**:: Identificar diferentes tipos de nubes a partir de sus patrones visuales. **Features**:: Textura, color, patrones espaciales. **Modelo**:: Clasificación multiclase. **Aplicación relevante**:: Apoyo a observación meteorológica y análisis climático básico. |
+| 10. | **Clasificación de calidad de conexión WiFi en la UTB** | **Descripción**:: Evaluación y modelado de la calidad de conexión WiFi en distintos puntos del campus. **Objetivo**:: Predecir la calidad de conexión (buena, media, baja) a partir de variables contextuales. **Features**:: Ubicación, hora del día, día de la semana, obstáculos, mediciones de velocidad y latencia. **Modelo**:: Clasificación o regresión. **Aplicación relevante**:: Optimización de infraestructura de red y análisis de cobertura. |
+| 11. | **Clasificación de tipos de empaques** | **Descripción**:: Clasificación de materiales de empaques a partir de imágenes tomadas en el entorno cotidiano. **Objetivo**:: Identificar si un empaque es plástico, papel o metal. **Features**:: Color, textura, características superficiales. **Modelo**:: Clasificación supervisada. **Aplicación relevante**:: Sistemas de reciclaje automatizado y separación de residuos. |
+| 12. | **Clasificación de tipos de aplauso** | **Descripción**:: Análisis de señales acústicas para identificar distintos patrones de aplauso. **Objetivo**:: Clasificar tipos de aplauso (lento, rápido, intenso). **Features**:: Ritmo, energía, patrones temporales. **Modelo**:: Clasificación supervisada. **Aplicación relevante**:: Análisis de comportamiento colectivo y procesamiento de señales de audio. |
 
 
 
